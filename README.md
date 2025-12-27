@@ -19,7 +19,7 @@ The timer overflow is used to trigger ADC conversion. Each ADC result is transfe
 ## Hardware Used
 - STM32F401RE
 - ST-LINK programmer
-- Potentiometer (ADC input)
+- Buck Converter or Potentiometer (ADC input)
 - PC with PuTTY serial terminal
 
 ## Software Used
@@ -43,7 +43,12 @@ The timer overflow is used to trigger ADC conversion. Each ADC result is transfe
 2. Build and flash the code to the STM32 board
 3. Open PuTTY and connect to the correct COM port (check Device Manager)
 4. Set connection type to Serial and baud rate to 115200
-5. Rotate the potentiometer and observe ADC values updating every 10 ms
+5. Change the buck convertter output voltage value and observe ADC values updating every 10 ms in putty
+
+
+## Connections
+1.Connect buck converter (+)pin to PA0 of stm 32 
+2.Buck converter (-)pin to GND of stm32 
 
 
 ## Notes

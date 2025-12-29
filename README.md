@@ -67,7 +67,7 @@ This project can be implemented on any STM32 microcontroller board that supports
 
 I have used STM32-F401RE (available board with me)
 Examples of suitable boards include:
-- STM32F401RE (Nucleo or Black Pill)
+- STM32- NUCLEO-F401RE 
 - STM32F411CE Black Pill
 - STM32F103C8 (Blue Pill)
 - STM32F446RE Nucleo

@@ -75,3 +75,6 @@ Examples of suitable boards include:
 
 Only minor register-level changes may be required depending on the STM32 series used.
 
+## Video proof link mentioned below
+https://drive.google.com/drive/folders/1YmJAOcMvBI63u-6YtnkHjRdR3XTw-OEc
+

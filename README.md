@@ -47,8 +47,8 @@ The timer overflow is used to trigger ADC conversion. Each ADC result is transfe
 
 
 ## Connections
-1.Connect buck converter (+)pin to PA0 of stm 32 
-2.Buck converter (-)pin to GND of stm32 
+1. Connect buck converter (+)pin to PA0 of stm 32 
+2. Buck converter (-)pin to GND of stm32 
 
 
 ## Notes
